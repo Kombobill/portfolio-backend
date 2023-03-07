@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby  '3.0.2'
 
 gem 'pry'
 gem 'rake'
@@ -13,8 +14,4 @@ gem "activerecord", "~> 5.2"
 gem "sinatra-activerecord"
 gem "sinatra"
 gem 'sqlite3', '~> 1.6', '>= 1.6.1'
-
-
-group :development do 
-    gem 'rerun', '~> 0.14.0'
-end
+gem 'rerun', '~> 0.14.0'
